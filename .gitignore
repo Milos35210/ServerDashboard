@@ -1,0 +1,25 @@
+# Dependencies & Virtual Environments
+node_modules/
+**/node_modules/
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Build-Ordner
+dist/
+build/
+
+# Environment Variablen & Secrets
+.env
+*.env
+.env.*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
